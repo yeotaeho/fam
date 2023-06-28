@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>산들해반찬</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <style>
+    #login {width:550px; height:1470px; margin:0 auto; border-top: #828282;}
+    #login > .box1 > h1 {text-align: center; font-size: 30px; font-weight: bold; padding:0px 0px 0px 0px;}
+    #login > .box1 {width: 550px; height: 100px; margin:0 auto; padding:65px 0px 30px 0px; }
+    #login > .box1 > ul > li {float: left; margin:35px 0px 0px 48.5px; color:#828282; font-size:16px;}
+    #login > .box1 > ul > li > span {color:#046142;}
+
+
+    #login > .box2 {width:100%; height:1310px;}
+    label {color: #303030; font-weight: bold;}
+    label > span {color: #046142;}
+    button {width:110px; height:53px; margin:0px 0px 0px 0px; background-color:#fff; border: 1px solid #046142; color: #046142; font-weight: bold; border-radius: 5px;}
+    .m {margin:0px 0px 0px 4px;}
+    .m2 {background-color:#046142;margin:45px 0px 0px 55px; border-radius:30px; font-size:16px; width: 440px; height: 60px;}
+    .m2 > a {color:#fff}
+    input[type="textbox"],input[type="password"] {width:542px; height:45px; font-size: 16px; margin:30px 0px 20px 0px; border-radius: 5px; border: 1px solid #828282;}
+    input[name="pd1"] {margin:30px 0px 0px 0px;}
+    input[name="pd2"] {margin:0px 0px 20px 0px;}
+    input[name="email"] {width: 308px;}
+    input[name="pon1"] {width: 427px; margin:30px 0px 0px 0px;}
+    input[name="pon2"] {margin:0px 0px 20px 0px; background-color: #ddd;}
+    input[name="pd"] {margin:0px 0px 0px 0px;}
+    select {font-size: 16px; height:40px;}
+    table {float: left;}
+    table td {width: 550px;line-height: 50px;}
+    table td > span {font-weight: bold;}
+    table .a1 {border-top:2px solid #303030;}
+    input[type="checkbox"] {width: 15px; height:15px;}
+
+
+  </style>
+</head>
+
+<body>
+  <div id="header">
+
+    <div class="box">
+      <a href="#">회원가입하고 할인쿠폰 받아가세요!</a>
+    </div>
+
+    <div class="box2">
+
+      <div class="top">
+        <p>수도권 이외 지역 <span>택배배송</span></p>
+      </div>
+
+      <div class="login">
+        <ul>
+          <li><a href="login3.html">로그인</a></li>
+          <li>|</li>
+          <li><a href="login.html"><span>회원가입</span></a></li>
+          <li>|</li>
+          <li><a href="login.html">배송안내</a></li>
+        </ul>
+
+      </div>
+
+      <div id="logo">
+        <a href="index.html" target="_self"><img src="img/logo2.jpg" alt="asd"></a>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="sub.html">=</a></li>
+        <li><a href="모든반찬.html">모든반찬</a></li>
+        <li>|</li>
+        <li>인기메뉴</li>
+        <li><a href="모든반찬.html">신메뉴</a></li>
+        <li><a href="sub.html">브랜드소개</a></li>
+        <li><a href="sub.html">이용가이드</a></li>
+        <li><a href="모든반찬.html">커뮤니티</a></li>
+      </ul>
+
+      <div class="textbox">
+        <input type="image" src="img/icon2.jpg" alt="검색" class="image1">
+        <input type="image" src="img/icon.jpg" alt="검색" class="image2">
+        <input type="textbox" name="오늘 뭐먹지" class="textbox2" placeholder="오늘 뭐 먹지" autocomplete="off">
+
+      </div>
+    </nav>
+
+  </div>
+
+  <main id="login">
+    <div class="box1">
+      <h1>회원가입</h1>
+    <ul>
+      <li>1.회원가입</li>
+      <li>▶</li>
+      <li><span>2.정보입력</span></li>
+      <li><span>▶</span></li>
+      <li>3.가입완료</li>
+    </ul>
+    </div>
+
+    <div class="box2">
+      <form>
+
+        <div class="dx1">
+          <label>아이디<span>*</span></label><br><br>
+          <input type="textbox" placeholder="최소 6자의 영문/숫자 조합으로 입력" autocomplete="off">
+        </div>
+
+        <div class="dx1">
+          <label>비밀번호<span>*</span></label><br><br>
+          <input type="password" placeholder="10~16자의 영문/숫자 조합으로 입력" name="pd1"><br>
+          <input type="password" placeholder="비밀번호 확인" name="pd2">
+        </div>
+
+        <div class="dx1">
+          <label>이름<span>*</span></label><br><br>
+          <input type="textbox">
+        </div>
+
+        <div class="dx1">
+          <label>이메일<span>*</span></label><br><br>
+          <input type="textbox" name="email">
+          <select>
+            <option>직접입력</option>
+            <option>naver.com</option>
+            <option>hanmail.net</option>
+            <option>daum.net</option>
+            <option>nate.com</option>
+            <option>hotmail.com</option>
+            <option>gmail.com</option>
+            <option>icloud.com</option>
+          </select>
+          <button>직접확인</button>
+        </div>
+
+        <div class="dx1">
+          <label>휴대폰번호<span>*</span></label><br><br>
+          <input type="textbox" name="pon1" placeholder="-없이 입력하세요."><button class="m">인증요청</button>
+          <input type="textbox" name="pon2"placeholder="인증번호을 입력하세요.">
+        </div>
+
+        <div class="dx1">
+          <label>추천인 아이디<span>*</span></label><br><br>
+          <input type="textbox">
+        </div>
+
+        <table>
+          <tr>
+            <td><input type="checkbox"> 전체동의</td>
+          </tr>
+          <tr>
+            <td class="a1"><input type="checkbox"> <span>(필수)</span>이용약관</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> <span>(필수)</span>개인정보 수집 및 이용</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> <span>(선택)</span>개인정보 수집 및 이용</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> 이메일 <input type="checkbox"> SMS</td>
+          </tr>
+        </table>
+          <hr>
+        <button class="m2"><a href="">가입하기</a></button>
+      </form>
+    </div>
+  </main>
+
+
+
+
+
+
+  <div id="footer2">
+    <div class="ww">
+    <a href="sub.html"><h6>고객행복센터</h6></a>
+    
+    <div class="www">
+      <h1>1577-1759</h1>
+      <a href="sub.html"><img src="img/www1.jpg" alt=""></a>
+      <div class="wwww">
+      <a href="sub.html"><button>1:1문의하기</button></a>
+      </div>
+      <ul>
+        <li>월 ~ 금 : 9시 - 18시</li>
+        <li>점심시간 : 12시 30분 - 13시 30분</li>
+        <li>일요일 : 9시 - 12시 (토요일, 공휴일 휴무)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ww">
+    <a href="sub.html"><h6>공지사항 <span>| 이벤트</span></h6></a>
+    
+    <div class="www">
+      <ul>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 3월1일 배송안내[삼일절]                          <span>2023-02-23</span></pre> </a> </li>
+        <li class="tlqkf"><a href="sub.html"> <pre>리뷰적립금 x 2배 - 매일매일 따블!                        <span>2023-02-15</span></pre></a></li>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 설날 배송안내                                        <span>2023-01-10</span></pre></a></li>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 새해 배송안내 [ 신정 ]                             <span>2022-12-28</span></pre></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ww">
+    <a href="sub.html"><h6>산들해 모바일 앱</h6></a>
+    
+    <div class="www">
+      <h2>산들해 SNS 팔로우하여 소식 받으시고<br>
+        다양한 혜택 받아가세요~</h2>
+        <ul>
+      <li><a href="sub.html"><img src="img/i-icon1.jpg" alt=""></a></li>
+      <li><a href="sub.html"><img src="img/i-icon2.jpg" alt=""></a></li>
+    </ul>
+    </div>
+    
+  </div>
+  </div>
+
+
+
+  </div>
+</div>
+<div id="footer">
+  <div class="q">
+  <div class="qq">
+  <ul>
+    <li><a href="sub.html">회사소개</a></li>
+    <li>|</li>
+    <li><a href="sub.html">이용약관</a></li>
+    <li>|</li>
+    <li><a href="sub.html">개인정보처리방침</a></li>
+    <li>|</li>
+    <li><a href="sub.html">이용안내</a></li>
+  </ul>
+</div>
+  <div class="qqq">
+    <ul>
+      <li>상호명 : 주식회사 산들해</li>
+      <li>|</li>
+      <li>대표자 : 이상경</li>
+      <li>|</li>
+      <li>사업자등록번호 : 724-86-01939 사업자번호확인</li>
+      <li>|</li>
+      <li>주소 : 서울특별시 양천구 목동서로 349 (센트럴프라자) 지하 1층, 개인정보보호책임자 : 이강섭
+        통신판매업신고번호 : 제2021-서울양천-2012호</li>
+      <li>|</li>
+      <li>TEL : 1577-1759</li>
+      <li>|</li>
+      <li> E-MAIL : sdhmarketing@naver.com</li>
+    </ul>
+    <p>COPYRIGHT© 2021 Hongsfood corp. ALL RIGHT RESERVED. HOSTING BY 엔에이치엔커머스(주). DESIGN BY 디자인위브</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+  <script>
+
+    $(document).ready(function () {
+
+
+
+      $(".mainimgbox li:first-child").mouseover(function () {
+
+        $("#cimg").attr("src", "img/foodimg3.jpg");
+
+      });
+
+
+
+      $(".mainimgbox li:nth-child(2)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_03.jpg");
+
+      });
+
+
+
+      $(".mainimgbox li:nth-child(3)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_01.jpg");
+      });
+
+
+      $(".mainimgbox li:nth-child(4)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_02.jpg");
+      });
+
+    });
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+[{
+"bestimg":"img/bestimg1.jpg",
+"icon":"img/icon2.jpg",
+"menu2":"흑임자연근무침",
+"span":"<span>원</span>",
+"sel2":"5,100",
+"tag2":"#흑임자레몬드레싱#아삭고소"
+},
+
+
+{
+"bestimg":"img/bestimg2.jpg",
+"icon":"img/icon2.jpg",
+"menu2":"한돈매콤불고기",
+"sel2":"18,600",
+"span":"<span>원</span>",
+"tag2":"#한돈목살 #매콤 #간편조리"
+},
+
+
+{
+"bestimg":"img/bestimg3.jpg",
+"icon":"img/icon2.jpg",
+"menu2":"파김치",
+"str":"<span><strike>15,300원</strike></span>",
+"sel2":"13,900",
+"span":"<span>원</span>",
+"tag2":"#국내산재료 #알싸하고개운한맛"
+},
+
+
+{
+"bestimg":"img/bestimg4.jpg",
+"icon":"img/icon2.jpg",
+"menu2":"한돈동그랑땡",
+"sel2":"12,800",
+"span":"<span>원</span>",
+"tag2":"#한돈 #국내산콩두부"
+}
+]

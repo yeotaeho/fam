@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>산들해반찬</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <style>
+
+#login {width: 1160px; height:8600px; margin:0 auto;}
+#list {width:1160px; height:152px; margin:0 auto;}
+  #list > #listbox {width: 1160px; height:80px; margin:70px 0px 0px 0px; float: left; border-top:2px solid #046142;}
+  #list > #listbox > a > ul {width:290px; height:80px; float: left;}
+  #list > #listbox > a > ul > li {text-align: center; color:#515151; font-weight: bold; font-size:18px; padding: 31px 0px; }
+  #list > #listbox > a > ul:hover {background-color: #046142; color: #fff;}
+  #list > #listbox > a > ul > li:hover {color: #fff;}
+
+
+  #login > h1 {font-size: 30px; color:#333; text-align: center; font-weight: bold; border-top: 1px solid #046142; padding:40px 0px 0px 0px;}
+  #best {width:100%; height:1820px; padding:100px 0px 0px;}
+ #best > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold;}
+ #best > p {text-align: center; padding:15px 0px 0px; color: #828282; font-size:16px;}
+ #best >.bestimg {width:1160px; height:557px; margin:0 auto; padding:0px 0px 11px;}
+ #best >.bestimg > .bestimgbox {width:260px; height:340px; float:left; margin:25px 0px 0px 25px;}
+ #best >.bestimg > .bestimgbox > a > img {width:100%; height:340px;}
+ #best >.bestimg > .bestimgbox {width:260px; height:480px; border:1px solid #fff;}
+ #best >.bestimg > .bestimgbox:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+ #best >.bestimg > .bestimgbox > .text2 {width:260px; height:140px; float:left; padding:12px 15px 26px; box-sizing: border-box
+   ;margin:0px 0px 0px 0px ; background-color: #fff;}
+ #best >.bestimg > .bestimgbox > .text2 > a {text-decoration:none;}
+ #best >.bestimg > .bestimgbox > .text2 > a > h5 {font-size:13px; color:#303030; font-weight: bold;}
+ #best >.bestimg > .bestimgbox > .text2 > p {font-size:27px; color:#046142; padding:15px 0px 0px;}
+ #best >.bestimg > .bestimgbox > .text2 > p > span {font-size:20px;}
+ #best >.bestimg > .bestimgbox > .text2 > p > .s {font-size:15px; color:#828282;}
+ #best >.bestimg > .bestimgbox > .text2 > h6 {font-size:13px; padding:15px 0px 0px; color:#828282;}
+ #best >.bestimg > .bestimgbox > .text2 > .icon2 {float:right; margin:-5px 0px 0px 0px;}
+ #best >.bestimg > .bestimgbox > .text2 > .icon2 > a > img {width:25px; height:25px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #best >.bestimg > .bestimgbox > .text2 > .smallimg {margin:20px 0px 0px 0px;}
+
+
+  </style>
+</head>
+
+<body>
+  <div id="header">
+
+    <div class="box">
+      <a href="#">회원가입하고 할인쿠폰 받아가세요!</a>
+    </div>
+
+    <div class="box2">
+
+      <div class="top">
+        <p>수도권 이외 지역 <span>택배배송</span></p>
+      </div>
+
+      <div class="login">
+        <ul>
+          <li><a href="login.html">로그인</a></li>
+          <li>|</li>
+          <li><a href="login.html"><span>회원가입</span></a></li>
+          <li>|</li>
+          <li><a href="login.html">배송안내</a></li>
+        </ul>
+
+      </div>
+
+      <div id="logo">
+        <a href="index.html" target="_self"><img src="img/logo2.jpg" alt="asd"></a>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="sub.html">=</a></li>
+        <li><a href="#">모든반찬</a></li>
+        <li>|</li>
+        <li><a href="sub.html">인기메뉴</a></li>
+        <li><a href="모든반찬.html">신메뉴</a></li>
+        <li><a href="sub.html">브랜드소개</a></li>
+        <li><a href="sub.html">이용가이드</a></li>
+        <li><a href="sub.html">커뮤니티</a></li>
+      </ul>
+
+      <div class="textbox">
+        <input type="image" src="img/icon2.jpg" alt="검색" class="image1">
+        <input type="image" src="img/icon.jpg" alt="검색" class="image2">
+        <input type="textbox" name="오늘 뭐먹지" class="textbox2" placeholder="오늘 뭐 먹지" autocomplete="off">
+
+      </div>
+    </nav>
+
+  </div>
+
+  <main id="login">
+    <div id="list">
+      <div id="listbox">
+
+        <a href="#content1">
+          <ul class="q1">
+            <li>묶음반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content2">
+          <ul class="q2">
+            <li>어린이반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content3">
+          <ul class="q3">
+            <li>국,찌개</li>
+          </ul>
+        </a>
+
+        <a href="#content4">
+          <ul class="q4">
+            <li>메인요리</li>
+          </ul>
+        </a>
+
+      </div>
+    </div>
+
+    <h1 id="content1">묶음반찬</h1>
+    <div id="best">
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+    </div>
+
+    <div id="list">
+      <div id="listbox">
+
+        <a href="#content1">
+          <ul class="q1">
+            <li>묶음반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content2">
+          <ul class="q2">
+            <li>어린이반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content3">
+          <ul class="q3">
+            <li>국,찌개</li>
+          </ul>
+        </a>
+
+        <a href="#content4">
+          <ul class="q4">
+            <li>메인요리</li>
+          </ul>
+        </a>
+
+      </div>
+    </div>
+
+    <h1 id="content2">어린이반찬</h1>
+    <div id="best">
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+    </div>
+
+    <div id="list">
+      <div id="listbox">
+
+        <a href="#content1">
+          <ul class="q1">
+            <li>묶음반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content2">
+          <ul class="q2">
+            <li>어린이반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content3">
+          <ul class="q3">
+            <li>국,찌개</li>
+          </ul>
+        </a>
+
+        <a href="#content4">
+          <ul class="q4">
+            <li>메인요리</li>
+          </ul>
+        </a>
+
+      </div>
+    </div>
+
+    <h1 id="content3">국,찌개</h1>
+    <div id="best">
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+    </div>
+
+    <div id="list">
+      <div id="listbox">
+
+        <a href="#content1">
+          <ul class="q1">
+            <li>묶음반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content2">
+          <ul class="q2">
+            <li>어린이반찬</li>
+          </ul>
+        </a>
+
+        <a href="#content3">
+          <ul class="q3">
+            <li>국,찌개</li>
+          </ul>
+        </a>
+
+        <a href="#content4">
+          <ul class="q4">
+            <li>메인요리</li>
+          </ul>
+        </a>
+
+      </div>
+    </div>
+
+    <h1 id="content4">메인요리</h1>
+    <div id="best">
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+      <div class="bestimg">
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg1.jpg" alt="ads"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>흑임자연근무침</h5></a>
+            <p>5,100<span>원</span></p>
+            <h6>#흑임자레몬드레싱#아삭고소</h6>
+            <div class="smallimg">
+              <img src="img/small img1.jpg" alt="as">
+              <img src="img/small img2.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg2.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈매콤불고기</h5></a>
+            <p>18,600<span>원</span></p>
+            <h6>#한돈목살 #매콤 #간편조리</h6>
+             <div class="smallimg">
+              <img src="img/small img3.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg3.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>파김치</h5></a>
+            <p>13,900<span>원</span> <span class="s"><strike>15,300원</strike></span></p>
+            <h6>#국내산재료 #알싸하고개운한맛</h6>
+             <div class="smallimg">
+              <img src="img/small img2.jpg" alt="as">
+              <img src="img/small img5.jpg" alt="as">
+              <img src="img/small img4.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="bestimgbox">
+          <a href="sub.html"><img src="img/bestimg4.jpg" alt="asd"></a>
+          <div class="text2">
+            <div class="icon2">
+              <a href="sub.html"><img src="img/icon2.jpg" alt="ㅁㄴㅇ"></a>
+            </div>
+            <a href="sub.html"><h5>한돈동그랑땡</h5></a>
+            <p>12,800<span>원</span></p>
+            <h6>#한돈 #국내산콩두부</h6>
+             <div class="smallimg">
+              <img src="img/small img6.jpg" alt="as">
+            </div>
+          </div>
+        </div>
+        
+
+  
+
+      </div>
+
+    </div>
+
+    
+
+    
+  </main>
+
+
+
+
+
+
+  <div id="footer2">
+    <div class="ww">
+    <a href="sub.html"><h6>고객행복센터</h6></a>
+    
+    <div class="www">
+      <h1>1577-1759</h1>
+      <a href="sub.html"><img src="img/www1.jpg" alt=""></a>
+      <div class="wwww">
+      <a href="sub.html"><button>1:1문의하기</button></a>
+      </div>
+      <ul>
+        <li>월 ~ 금 : 9시 - 18시</li>
+        <li>점심시간 : 12시 30분 - 13시 30분</li>
+        <li>일요일 : 9시 - 12시 (토요일, 공휴일 휴무)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ww">
+    <a href="sub.html"><h6>공지사항 <span>| 이벤트</span></h6></a>
+    
+    <div class="www">
+      <ul>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 3월1일 배송안내[삼일절]                          <span>2023-02-23</span></pre> </a> </li>
+        <li class="tlqkf"><a href="sub.html"> <pre>리뷰적립금 x 2배 - 매일매일 따블!                        <span>2023-02-15</span></pre></a></li>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 설날 배송안내                                        <span>2023-01-10</span></pre></a></li>
+        <li class="tlqkf"><a href="sub.html"> <pre>2023년 새해 배송안내 [ 신정 ]                             <span>2022-12-28</span></pre></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ww">
+    <a href="sub.html"><h6>산들해 모바일 앱</h6></a>
+    
+    <div class="www">
+      <h2>산들해 SNS 팔로우하여 소식 받으시고<br>
+        다양한 혜택 받아가세요~</h2>
+        <ul>
+      <li><a href="sub.html"><img src="img/i-icon1.jpg" alt=""></a></li>
+      <li><a href="sub.html"><img src="img/i-icon2.jpg" alt=""></a></li>
+    </ul>
+    </div>
+    
+  </div>
+  </div>
+
+
+
+  </div>
+</div>
+<div id="footer">
+  <div class="q">
+  <div class="qq">
+  <ul>
+    <li><a href="sub.html">회사소개</a></li>
+    <li>|</li>
+    <li><a href="sub.html">이용약관</a></li>
+    <li>|</li>
+    <li><a href="sub.html">개인정보처리방침</a></li>
+    <li>|</li>
+    <li><a href="sub.html">이용안내</a></li>
+  </ul>
+</div>
+  <div class="qqq">
+    <ul>
+      <li>상호명 : 주식회사 산들해</li>
+      <li>|</li>
+      <li>대표자 : 이상경</li>
+      <li>|</li>
+      <li>사업자등록번호 : 724-86-01939 사업자번호확인</li>
+      <li>|</li>
+      <li>주소 : 서울특별시 양천구 목동서로 349 (센트럴프라자) 지하 1층, 개인정보보호책임자 : 이강섭
+        통신판매업신고번호 : 제2021-서울양천-2012호</li>
+      <li>|</li>
+      <li>TEL : 1577-1759</li>
+      <li>|</li>
+      <li> E-MAIL : sdhmarketing@naver.com</li>
+    </ul>
+    <p>COPYRIGHT© 2021 Hongsfood corp. ALL RIGHT RESERVED. HOSTING BY 엔에이치엔커머스(주). DESIGN BY 디자인위브</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+  <script>
+
+    $(document).ready(function () {
+
+
+
+      $(".mainimgbox li:first-child").mouseover(function () {
+
+        $("#cimg").attr("src", "img/foodimg3.jpg");
+
+      });
+
+
+
+      $(".mainimgbox li:nth-child(2)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_03.jpg");
+
+      });
+
+
+
+      $(".mainimgbox li:nth-child(3)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_01.jpg");
+      });
+
+
+      $(".mainimgbox li:nth-child(4)").mouseover(function () {
+
+        $("#cimg").attr("src", "img/sub_02.jpg");
+      });
+
+    });
+
+  </script>
+</body>
+
+</html>

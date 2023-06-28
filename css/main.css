@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+
+ /*이미지*/
+ #slider {width:1900px; height:450px; background-color:#eee; margin:0 auto; overflow: hidden;}
+ #slider > .slide {width:5700px; height:450px; float:left;}
+ #slider > .slide > li {float: left;}
+ #slider > .slide > li > a > img {width:1900px; height:450px; float:left;}
+ #slider > span {position: absolute; top:43%; display: block; font-size: 50px; color:#fff; line-height: 40px; 
+ cursor: pointer; height: 50px; display: none;}
+ #slider > .prev {left:150px; padding:10px;}
+ #slider > .next {right:150px; padding:10px;}
+
+ #container {width:100%; height:7180.61px; margin:0 auto;}
+
+ /*이미지2*/
+
+ /*엄마 셋이 추천드려요.*/
+ #imgbox3 {width:1450px; height:650px; padding:60px 0px; margin:0 auto;}
+ #imgbox3 > h1 {text-align:center; font-size:40px; font-weight: bold;}
+ .menu {width:1160px; height:73px; margin:0 auto;}
+ .menu > ul {margin:30px 0px 0px 170px;}
+ .menu > ul > li {float:left; margin:20px 0px 0px 20px; text-decoration:none; cursor: pointer; border-radius:30px; background-color: #eee; color:#828282; font-size:19px; padding:12px 17px; border-radius: 30px;}
+ .menu > ul > li:nth-of-type(1) {background-color: #046142; color: #fff;}
+ #list {width:1160px; height:441px; margin:0 auto; padding:36px 0px 0px; overflow: hidden;} 
+ #list > #wpqkfa {width: 8100px; height: 441px; float: left;}
+ #list > #wpqkfa > .tlqkf > .foodimg {width:210px; height:280px; float:left; margin:0px 0px 0px 0px;}
+ #list > #wpqkfa > .tlqkf > .foodimg > a > img {width:100%; height:280px;}
+ #list > #wpqkfa > .tlqkf {width:210px; height:415px; float: left; margin:0px 0px 0px 18px; border:1px solid #fff;}
+ #list > #wpqkfa > .tlqkf:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text {width:210px; height:125px; float:left; margin:0px 0px 0px 0px; padding:12px 0px 0px;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > a {text-decoration:none;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > a > h5 {font-size:13px; color:#303030; font-weight: bold; margin:0px 0px 0px 5px;} 
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > p {font-size:27px; color:#046142; padding:15px 5px 0px;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > p > span {font-size:20px;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > h6 {font-size:13px; padding:15px 5px 0px; color:#828282;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > .icon {float:right; margin:-5px 5px 0px 0px;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > .icon > a > img {width:20px; height:20px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #list > #wpqkfa > .tlqkf > .foodimg >.text > .smallimg {margin:10px 0px 0px 5px;}
+
+
+ /*꾸준하게 팔려요*/
+ #best {width:100%; height:720px; padding:100px 0px 0px; background-color:#F5FCF4;}
+ #best > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold;}
+ #best > p {text-align: center; padding:15px 0px 0px; color: #828282; font-size:16px;}
+ #best >.bestimg {width:1160px; height:557px; margin:0 auto; padding:0px 0px 11px;}
+ #best >.bestimg > .bestimgbox {width:260px; height:340px; float:left; margin:25px 0px 0px 25px;}
+ #best >.bestimg > .bestimgbox > a > img {width:100%; height:340px;}
+ #best >.bestimg > .bestimgbox {width:260px; height:480px; border:1px solid #e5fcf4;}
+ #best >.bestimg > .bestimgbox:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+ #best >.bestimg > .bestimgbox > .text2 {width:260px; height:140px; float:left; padding:12px 15px 26px; box-sizing: border-box
+   ;margin:0px 0px 0px 0px ; background-color: #fff;}
+ #best >.bestimg > .bestimgbox > .text2 > a {text-decoration:none;}
+ #best >.bestimg > .bestimgbox > .text2 > a > h5 {font-size:13px; color:#303030; font-weight: bold;}
+ #best >.bestimg > .bestimgbox > .text2 > p {font-size:27px; color:#046142; padding:15px 0px 0px;}
+ #best >.bestimg > .bestimgbox > .text2 > p > span {font-size:20px;}
+ #best >.bestimg > .bestimgbox > .text2 > p > span:nth-of-type(2) {font-size:15px; color:#828282;}
+ #best >.bestimg > .bestimgbox > .text2 > h6 {font-size:13px; padding:15px 0px 0px; color:#828282;}
+ #best >.bestimg > .bestimgbox > .text2 > .icon2 {float:right; margin:-5px 0px 0px 0px;}
+ #best >.bestimg > .bestimgbox > .text2 > .icon2 > a > img {width:25px; height:25px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #best >.bestimg > .bestimgbox > .text2 > .smallimg {margin:20px 0px 0px 0px;}
+
+
+ /*새로 나왔어요*/
+ #new {width:1160px; height:650px; padding:50px 0px 0px 0px; margin:0 auto;}
+ #new > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold;}
+ #new > p {text-align: center; padding:20px 0px 15px; color: #828282; font-size:16px; }   
+ #new > .newbox {width:1160px; height:455px;}
+ #new > .newbox > .newboxa {width:210px; height:405px; float:left; margin:0px 0px 0px 18px; border:1px solid #fff;}
+ #new > .newbox > .newboxa:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+ #new > .newbox > .newboxa > a > img {width:100%; height:280px;}
+ #new > .newbox > .newboxa> .text3 {width:210px; height:110px; float:left; margin:0px 0px 0px 0px; padding:12px 0px 0px;} 
+ #new > .newbox > .newboxa > .text3 > a {text-decoration:none;}
+ #new > .newbox > .newboxa > .text3 > a > h5 {font-size:13px; color:#303030; font-weight: bold; padding:0px 5px 0px;}
+ #new > .newbox > .newboxa > .text3 > p {font-size:27px; color:#046142; padding:15px 5px 0px;}
+ #new > .newbox > .newboxa > .text3 > p > span {font-size:20px;}
+ #new > .newbox > .newboxa > .text3 > p > strike {font-size:15px; color: #828282; padding:0px 0px 0px 10px;}
+ #new > .newbox > .newboxa > .text3 > h6 {font-size:13px; padding:15px 5px 0px; color:#828282;}
+ #new > .newbox > .newboxa > .text3 > .icon3 {float:right; margin:-5px 5px 0px 0px;}
+ #new > .newbox > .newboxa > .text3 > .icon3 > a > img {width:25px; height:25px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #new > .newbox > .newboxa > .text3 > .smallimg {margin:8px 0px 0px 5px;} 
+
+ /*작은이미지1*/
+ #imgbox4 {width:1160px; height:160px; background-color: #FFFFDE; margin:0 auto;}
+ #imgbox4 > img {width:100%; height:100%;}
+
+ /*여기 있어요 밥도둑!*/
+ #best2 {width:1160px; height:1000px; margin:0 auto; padding:100px 0px 60px 0px;}
+ #best2 > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold; padding:0px 0px 5px 0px;}
+ #best2 > p {text-align: center; padding:15px 0px 0px; color: #828282; font-size:16px;}
+ #best2 > .bestimg2 {width:1160px; height:896px; padding:30px 0px 0px; margin:10px 0px 0px 0px;}  
+ #best2 > .bestimg2 > .bestimgbox2 {width:350px; height:360px; float:left; margin:0px 0px 0px 27px; border-left:1px solid #ddd; border-right:1px solid #ddd; border-top:1px solid #ddd;}
+ #best2 > .bestimg2 > .bestimgbox2 > a > img {width:100%; height: 700px;}
+ #best2 > .bestimg2 > .text4 > .textbox4 {width:350px; height:130px; float: left; margin:0px 0px 0px 27px;  border-top:none; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+ #best2 > .bestimg2 > .menubox > ul {width:350px; height:340px; float:left; margin:0px 0px 0px 27px; border:1px solid #ddd; border-top:none;}
+ #best2 > .bestimg2 > .menubox > ul > li {width:300px; height:90px; margin:17px 0px 0px 25px;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > a {text-decoration:none;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > a > h2 {font-size:20px; color:#303030; text-align:center; font-weight: bold; margin:10px 0px 0px 0px;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > p {font-size:15px; padding:12px 0px 0px; text-align:center; color: #828282;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > .icon-wrap {width:267px; height:25px; padding:20px 0px 0px 83px;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > .icon-wrap > span {margin:0 auto; border:1px solid #333; color: #333; }
+ #best2 > .bestimg2 > .text4 > .textbox4 > .icon-wrap > .green {margin:0 auto; border:1px solid #8fc31f; color: #8fc31f;}
+ #best2 > .bestimg2 > .text4 > .textbox4 > .icon-wrap > .blue {margin:0 auto; border:1px solid #20aee5; color: #20aee5;}
+ #best2 > .bestimg2 > .menubox > ul > li > a > img {width:70px; height:90px;} 
+ #best2 > .bestimg2 > .menubox > ul > li > .help {width:215px; height:90px; float:right; border-top:2px solid #ddd;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > a {text-decoration:none;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > a > h5 {font-size:15px; color:#303030; padding:10px 0px 20px 0px; font-weight: bold;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > p {font-size:17px; color: #046142;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > .icon4 {float:right; margin:15px 5px 0px 0px;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > .icon4 > a > img {width:25px; height:25px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #best2 > .bestimg2 > .menubox > ul > li > .help > img {margin:7px 0px 0px 0px;}
+
+
+
+ /*큰이미지*/
+ #bigimg {width:100%; height:620px; background-image:url("../img/bg-1.jpg.webp");
+ background-position: center; background-size: cover; margin:0 auto;}
+ #bigimg > .bigimgbox {margin:0 auto; width:1000px; height:170px;}
+ #bigimg > .bigimgbox > img {width:550px; height:350px; margin:110px 0px 0px 0px;}
+ #bigimg > .bigimgbox2 {margin:0 auto; width:100px; height:300px;}
+ #bigimg > .bigimgbox2 > img {width:550px; height:330px;margin:80px 0px 0px 0px;}
+
+ /*산들해 이야기*/
+ #story {width:1160px; height:790px; margin:0 auto; padding:100px 0px;}
+ #story > a {text-decoration:none; color: #303030;}
+ #story > a > h1 {text-align:center; font-size:40px; font-weight: bold; margin:0px 0px 20px 0px;}
+ #story > .storyimg {width:360px; height:330px; background-color: #ddd; float:left; margin:0px 0px 0px 19px;}
+ #story > .storyimg > a > img {width:100%; height:100%;}
+ #story > .storyimg > a > img:hover {opacity:0.7; transition:0.3s;} 
+ #story > .storytext > .storytextbox {width:360px; height:100px; float: left; margin:0px 0px 0px 19px; padding:17px 0px 0px;}
+ #story > .storytext > .storytextbox > a > h6 {font-size:13px; color: #046142; font-weight: bold;}
+ #story > .storytext > .storytextbox > a {text-decoration:none;}
+ #story > .storytext > .storytextbox > a > h4 {font-size:20px; color:#303030; padding:15px 0px 0px; font-weight: bold;}
+ #story > .storytext > .storytextbox > p {font-size: 13px; color:#828282; padding:12px 0px 0px; line-height: 17px;}
+
+/*작은 이미지2*/
+ #imgbox5 {width:1000px; height:160px; background-color: rgb(185, 170, 150); margin:590px 0px 0px 76px;}
+ #imgbox5 > a > img {width:100%; height:100%;}
+
+ /*고객 생생후기*/
+   #con {width:100%; height:594px; padding:80px 0px 50px; background-color:#F5FCF4; margin:0 auto;}
+   #con > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold;}
+   #con > p {text-align: center; padding:15px 0px 35px; color: #828282; font-size:16px;}
+   #con > .conimg {width:1160px; height:420px; margin:0 auto;}
+   #con > .conimg > .conimgbox {width:210px; height:367px; float:left; margin:0px 0px 0px 18px; border:1px solid #F5FCF4;} 
+   #con > .conimg > .conimgbox > a > img {width:100%; height:250px;}
+   #con > .conimg > .conimgbox:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+   #con > .conimg > .conimgbox > .context {width:210px; height:105px; background-color:#fff; float:left; margin:0px 0px 0px 0px; padding:12px 0px 0px;}
+   #con > .conimg > .conimgbox > .context > h6 {font-size: 12px; margin:12px 12px 0px; color: #303030; line-height: 16px;}
+   #con > .conimg > .conimgbox > .context > p {font-size: 14px; margin:12px 12px 0px; color: #828282; } 
+
+   /*인스타*/
+   #ins {width:1160px; height:930px; margin:0 auto;}
+   #ins > h1 {font-size:30px; text-align: center; color:#303030; font-weight: bold; padding:50px 0px 0px;}
+   #ins > p {text-align: center; padding:15px 0px 35px; color: #828282; font-size:16px;}
+   #ins > .imgs {width:950px; height:620px; margin:0 auto;}
+   #ins > .imgw {width:1160px; height:150px; margin: auto; padding:25px 0px 0px 0px;}
+   #ins > .imgw > img {width:100%; height:100%;}
+   #ins > .imgs > .imgss {width:140px; height:172px; background-color: aquamarine; float: left; margin:0px 0px 10px 15px;}
+   #ins > .imgs > .imgss > a > img {width:100%; height:100%; background-color: #052c1f;}
+   #ins > .imgs > .imgss > a > img:hover {opacity: 0.7; transition:0.2s;}
