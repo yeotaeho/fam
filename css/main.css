@@ -24,19 +24,19 @@
  .menu > ul > li:nth-of-type(1) {background-color: #046142; color: #fff;}
  #list {width:1160px; height:441px; margin:0 auto; padding:36px 0px 0px; overflow: hidden;} 
  #list > #wpqkfa {width: 8100px; height: 441px; float: left;}
- #list > #wpqkfa > .tlqkf > .foodimg {width:210px; height:280px; float:left; margin:0px 0px 0px 0px;}
- #list > #wpqkfa > .tlqkf > .foodimg > a > img {width:100%; height:280px;}
- #list > #wpqkfa > .tlqkf {width:210px; height:415px; float: left; margin:0px 0px 0px 18px; border:1px solid #fff;}
- #list > #wpqkfa > .tlqkf:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text {width:210px; height:125px; float:left; margin:0px 0px 0px 0px; padding:12px 0px 0px;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > a {text-decoration:none;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > a > h5 {font-size:13px; color:#303030; font-weight: bold; margin:0px 0px 0px 5px;} 
- #list > #wpqkfa > .tlqkf > .foodimg >.text > p {font-size:27px; color:#046142; padding:15px 5px 0px;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > p > span {font-size:20px;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > h6 {font-size:13px; padding:15px 5px 0px; color:#828282;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > .icon {float:right; margin:-5px 5px 0px 0px;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > .icon > a > img {width:20px; height:20px; border: 1px solid #424242; border-radius:20px; padding:3px;}
- #list > #wpqkfa > .tlqkf > .foodimg >.text > .smallimg {margin:10px 0px 0px 5px;}
+ #list > #wpqkfa > .foodconer > .foodimg {width:210px; height:280px; float:left; margin:0px 0px 0px 0px;}
+ #list > #wpqkfa > .foodconer > .foodimg > a > img {width:100%; height:280px;}
+ #list > #wpqkfa > .foodconer {width:210px; height:415px; float: left; margin:0px 0px 0px 18px; border:1px solid #fff;}
+ #list > #wpqkfa > .foodconer:hover {box-shadow: 4px 4px 4px;color: #eee; opacity: 0.9; transition: 0.2s; border-radius:7px; border:1px solid #eee;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text {width:210px; height:125px; float:left; margin:0px 0px 0px 0px; padding:12px 0px 0px;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > a {text-decoration:none;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > a > h5 {font-size:13px; color:#303030; font-weight: bold; margin:0px 0px 0px 5px;} 
+ #list > #wpqkfa > .foodconer > .foodimg >.text > p {font-size:27px; color:#046142; padding:15px 5px 0px;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > p > span {font-size:20px;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > h6 {font-size:13px; padding:15px 5px 0px; color:#828282;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > .icon {float:right; margin:-5px 5px 0px 0px;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > .icon > a > img {width:20px; height:20px; border: 1px solid #424242; border-radius:20px; padding:3px;}
+ #list > #wpqkfa > .foodconer > .foodimg >.text > .smallimg {margin:10px 0px 0px 5px;}
 
 
  /*꾸준하게 팔려요*/
